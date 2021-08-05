@@ -1,0 +1,23 @@
+.button {
+  width: 100%;
+  max-width: 420px;
+  padding: 18px 0;
+  background: #065bea;
+  border-radius: 8px;
+  border: none;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+
+  cursor: pointer;
+
+  &:hover {
+    background: #0451d2;
+  }
+
+  &:active {
+    background: #065bea;
+  }
+}

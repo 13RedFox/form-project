@@ -1,0 +1,34 @@
+.button {
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+  padding: 18px 0;
+  background: #065bea;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  transition: background-color 0.15s ease-in-out;
+  cursor: pointer;
+
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  &:hover {
+    background: #0451d2;
+  }
+
+  &:active {
+    background: #065bea;
+  }
+
+  &:disabled {
+    background: #c6d0e0;
+  }
+}
